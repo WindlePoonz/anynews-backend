@@ -3,7 +3,7 @@ name: Publish AnyNews JSON
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"  # toutes les 30 minutes
+    - cron: "*/15 * * * *"  # toutes les 30 minutes
 
 permissions:
   contents: read
